@@ -1,22 +1,18 @@
-
 #container {
   margin: 20px;
-  font-size: 18px;
-  position: relative;
 }
 
-/* Insert content before container */
 #container::before {
-  content: "★ Special Text Before ★ ";
+  content: "This is before content";
   color: #f00;
   font-size: 20px;
   display: block;
 }
 
-/* Insert content after container */
 #container::after {
-  content: " ★ Special Text After ★";
+  content: "This is after content";
   color: #f00;
   font-size: 20px;
   display: block;
 }
+
